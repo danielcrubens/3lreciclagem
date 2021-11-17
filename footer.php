@@ -1,6 +1,16 @@
-<footer>
+<!-- Footer -->
+<footer class="black">
+<div class="container">
+        <div class="d-flex justify-content-between">
+            <div class="col-4 red">fkdfkds</div>
+            <div class="col-4 green ">cçsdçcçsd</div>
+            <div class="col-4 blue">,c,sd,c</div>
+        </div>
+        </div>
+
 
 </footer>
+<!-- Footer -->
 
 
 <?php wp_footer(); ?>
