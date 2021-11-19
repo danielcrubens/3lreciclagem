@@ -4,10 +4,51 @@
 .size-medium,
 .size-thumbnail {
   max-width: 100%;
-  height: auto; }
-  * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-  }
+  height: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+$white: #ffffff;
+$green-dark:#25772B;
+$green:#13BC1F;
+$green-button:#4AB852;
+$green-input:#A5F4AB;
+$gray:#CACACA;
+$gray-dark:#4E4E4E;
+$bg-color:#F6FFF9;
+$brown:#642A09;
+$blue-link:#9BDBFF;
+html,
+body,
+.view {
+  height: 100%;
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  background-color: $bg-color;
+}
+h1{
+  font-size:3rem;
+  font-weight: 700;
+  color: $gray-dark;
+}
+h2{
+  font-size:2rem;
+  font-weight: 700;
+  color: $gray-dark;
+}
+h3{
+  font-size: 1.5rem;
+}
+section{
+  margin-top: 6rem;
+}

@@ -1,0 +1,97 @@
+/* NAVBAR */
+.top-nav-collapse {
+	background-color: $bg-color;
+}
+
+.navbar:not(.top-nav-collapse) {
+	background: $bg-color !important;
+	box-shadow: none;
+}
+.navbar-nav {
+	a {
+		color: $green-dark;
+		font-weight: 400;
+		font-size: 1.125rem;
+	}
+}
+.links {
+	&::after {
+		content: "";
+		display: block;
+		width: 0%;
+		height: 0.125rem;
+		background-color: $green-dark;
+		transition: width 300ms ease-in-out;
+	}
+	&:hover {
+		&::after {
+			width: 100%;
+			transition: width 300ms ease-in-out;
+		}
+	}
+}
+.btn-3l {
+	display: inline-block;
+	padding: 0.51rem 2rem;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	color: $white !important;
+	border-radius: 0.313rem;
+}
+.btn-swipe {
+	position: relative;
+	background-color: $green-button;
+	z-index: 0;
+	overflow: hidden;
+	transition: color 0.3s cubic-bezier(0, 0.25, 0.5, 1);
+	&:hover {
+		color: $white;
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
+		width: 100%;
+		transform: translateX(-115%);
+		transition: all 0.3s cubic-bezier(0, 0.25, 0.5, 1);
+		background-color: $green-dark;
+	}
+}
+.btn-swipe.angle {
+	&::before {
+		transform: skewX(-35deg) translateX(-115%);
+	}
+	&:hover {
+		&::before {
+			transform: skewX(-15deg) translateX(0) scaleX(1.35);
+		}
+	}
+	&:active {
+		&::before {
+			transform: skewX(-15deg) translateX(0) scaleX(1.35);
+		}
+	}
+}
+
+/* SECTION RECICLE */
+
+.recile:after {
+	content: url(../img/line-title-hero.png);
+	display: block;
+	width: auto;
+	margin: 0 auto;
+	position: absolute;
+	top: 1rem;
+}
+h2:after {
+	content: url(../img/line-title.png);
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+	position: absolute;
+	top: 1.4rem;
+}

@@ -1,4 +1,5 @@
 <!-- Footer -->
+<section>
 <footer class="black">
 <div class="container">
         <div class="d-flex justify-content-between">
@@ -10,11 +11,13 @@
 
 
 </footer>
+</section>
 <!-- Footer -->
 
 
 <?php wp_footer(); ?>
 <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js"></script>
 <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/popper.min.js"></script>
 <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/bootstrap.min.js"></script>
 <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/mdb.min.js"></script>
