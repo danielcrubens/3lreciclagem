@@ -13,6 +13,7 @@
   box-sizing: border-box;
 }
 $white: #ffffff;
+<<<<<<< HEAD
 $green-dark: #25772b;
 $green: #13bc1f;
 $green-button: #4ab852;
@@ -22,6 +23,17 @@ $gray-dark: #4e4e4e;
 $bg-color: #f6fff9;
 $brown: #642a09;
 $blue-link: #9bdbff;
+=======
+$green-dark:#25772B;
+$green:#13BC1F;
+$green-button:#4AB852;
+$green-input:#A5F4AB;
+$gray:#CACACA;
+$gray-dark:#4E4E4E;
+$bg-color:#F6FFF9;
+$brown:#642A09;
+$blue-link:#9BDBFF;
+>>>>>>> 1f4f3e9ccbe5dd168fd041b28ab06316139d2175
 html,
 body,
 .view {
@@ -32,6 +44,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+<<<<<<< HEAD
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   background-color: $bg-color;
@@ -61,3 +74,25 @@ h3 {
 section {
   margin-top: 6rem;
 }
+=======
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  background-color: $bg-color;
+}
+h1{
+  font-size:3rem;
+  font-weight: 700;
+  color: $gray-dark;
+}
+h2{
+  font-size:2rem;
+  font-weight: 700;
+  color: $gray-dark;
+}
+h3{
+  font-size: 1.5rem;
+}
+section{
+  margin-top: 6rem;
+}
+>>>>>>> 1f4f3e9ccbe5dd168fd041b28ab06316139d2175

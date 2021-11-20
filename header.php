@@ -15,7 +15,10 @@
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/mdb.min.css">
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/main.css" />
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+=======
+>>>>>>> 1f4f3e9ccbe5dd168fd041b28ab06316139d2175
 
   <?php wp_head(); ?>
 </head>
@@ -46,9 +49,16 @@
           </li>
           <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
             <a class="d-block btn-3l btn-swipe angle" href="#"><span>Contato</span></a>
+<<<<<<< HEAD
             
+=======
+>>>>>>> 1f4f3e9ccbe5dd168fd041b28ab06316139d2175
           </li>
         </ul>
         </div>
     </nav>
+<<<<<<< HEAD
   </header>
+=======
+  </header>
+>>>>>>> 1f4f3e9ccbe5dd168fd041b28ab06316139d2175

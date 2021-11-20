@@ -17,10 +17,18 @@
 
 <?php wp_footer(); ?>
 <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/jquery.min.js"></script>
+<<<<<<< HEAD
 <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/popper.min.js"></script>
 <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/bootstrap.min.js"></script>
 <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/mdb.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+=======
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js"></script>
+<script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/popper.min.js"></script>
+<script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/bootstrap.min.js"></script>
+<script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/mdb.min.js"></script>
+<script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/slick.min.js"></script>
+>>>>>>> 1f4f3e9ccbe5dd168fd041b28ab06316139d2175
 <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/plugins/animated.min.js"></script>
 <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/main.min.js"></script>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
