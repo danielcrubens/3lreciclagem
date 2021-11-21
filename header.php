@@ -15,10 +15,7 @@
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/mdb.min.css">
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/main.css" />
-<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
-=======
->>>>>>> 1f4f3e9ccbe5dd168fd041b28ab06316139d2175
 
   <?php wp_head(); ?>
 </head>
@@ -27,7 +24,7 @@
 <body <?php body_class(); ?>>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar ">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar d-none d-md-block">
       <div class="container ">
       <?php the_custom_logo(); ?>
 
@@ -38,27 +35,17 @@
       <div class="collapse navbar-collapse container" id="basicExampleNav">
         <ul class="navbar-nav ml-auto">
           <li class="d-flex align-items-center mx-lg-3">
-            <a class="d-block links" href="#">Sobre nós
+            <a class="d-block links" href="#sobre">Sobre nós
             </a>
           </li>
           <li class="d-flex align-items-center mx-lg-3">
-            <a class="d-block links" href="#">Serviços</a>
+            <a class="d-block links" href="#servicos">Serviços</a>
           </li>
           <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
-            <a class="d-block links" href="#">Parceiros</a>
+            <a class="d-block links" href="#parceiros">Parceiros</a>
           </li>
           <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
-            <a class="d-block btn-3l btn-swipe angle" href="#"><span>Contato</span></a>
-<<<<<<< HEAD
-            
-=======
->>>>>>> 1f4f3e9ccbe5dd168fd041b28ab06316139d2175
+            <a class="d-block btn-3l btn-swipe angle" href="#contato"><span>Contato</span></a>
           </li>
-        </ul>
-        </div>
     </nav>
-<<<<<<< HEAD
   </header>
-=======
-  </header>
->>>>>>> 1f4f3e9ccbe5dd168fd041b28ab06316139d2175

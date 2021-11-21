@@ -38,11 +38,8 @@
 	text-transform: none;
 	color: $white !important;
 	border-radius: 0.313rem;
-<<<<<<< HEAD
 	font-weight: 400;
     font-size: 1.125rem;
-=======
->>>>>>> 1f4f3e9ccbe5dd168fd041b28ab06316139d2175
 }
 .btn-swipe {
 	position: relative;
@@ -92,7 +89,7 @@
 	position: absolute;
 	top: 1rem;
 }
-h2:after {
+h2.line1:after {
 	content: url(../img/line-title.png);
 	display: block;
 	width: 95%;
@@ -100,7 +97,6 @@ h2:after {
 	position: absolute;
 	top: 1.4rem;
 }
-<<<<<<< HEAD
 .line2:after {
 	content: url(../img/line-title2.png);
 	display: block;
@@ -109,31 +105,16 @@ h2:after {
 	position: absolute;
 	top: 1.4rem;
 }
+h2.line3:after {
+	content: url(../img/line-title.png);
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+    top: -1rem;
+}
 /* SECTION CAROUSEL */
-/* @mixin owl-arrow-parent {
-	padding: 0 !important;
-	background: transparent !important;
-  }
-  
-  @mixin owl-arrows {
-	width: 32px;
-	  height: 32px;
-	  display: inline-block;
-	  transition: background .35s;
-  }
-  
-  
-  //Styles
-  }
-  
-  .slide-left {
-	background: url() center no-repeat;
-  }
-  
-  .owl-prev, .owl-next {
-	@include owl-arrows;
-  
-  } */
+
   .owl-nav{
 
 	  text-align: center;
@@ -150,7 +131,67 @@ h2:after {
   }
   .item {
 	background: red;
-	height: 200px;
+	height: 100px;
   }
-=======
->>>>>>> 1f4f3e9ccbe5dd168fd041b28ab06316139d2175
+
+  /* SECTION CONTATO */
+  input[name='nome-contato'],
+  input[name='email-contato'],
+  input[name='tel-contato'],
+  input[name='assunto-contato'],
+  textarea[name='mensagem-contato']{
+	  padding:0.313rem 0.938rem;
+	  color:$gray;
+	  border-radius: 0.313rem;
+	  border: 0.063rem solid $green-input;
+	  outline: none;
+	  text-align: left;
+  }
+  input::placeholder {
+	color:$gray;
+  }
+
+label{
+font-weight: 500;
+color: $gray-dark;
+}
+
+footer{
+	background: $green-dark;
+	a {
+		font-size: 1rem;
+		color: $white;
+		font-weight: 400;
+		&:hover{
+			color:$blue-link;
+		}
+	}
+	p{
+		font-size: 1rem;
+		color: $white;
+		font-weight: 400;
+	
+	}
+	}
+
+/* VOLTAR AO TOPO */
+.topo {
+    width: 2.813rem;
+    height: 2.813rem;
+    padding: 5px;
+    text-align: center;
+    background: $green-button;
+    color: $white;
+    position: fixed;
+    bottom: 0.5rem;
+	display: none;
+    right: 0.5rem;
+    text-decoration: none;
+    border-radius: 0.313rem;
+    z-index: 99;
+    &:hover {
+        background: $green-dark;
+        color: $white;
+    }
+}
+  
