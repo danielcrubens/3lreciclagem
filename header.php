@@ -15,37 +15,62 @@
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/mdb.min.css">
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/main.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
 
   <?php wp_head(); ?>
 </head>
 <?php flush(); ?>
-
 <body <?php body_class(); ?>>
-
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar d-none d-md-block">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar d-none d-lg-block">
       <div class="container ">
+        <?php the_custom_logo(); ?>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="meuMenu" class="collapse navbar-collapse container">
+          <ul class="navbar-nav ml-auto">
+            <li class="d-flex align-items-center mx-lg-3 ">
+              <a class="d-block links " href="#sobre">Sobre nós
+              </a>
+            </li>
+            <li class="d-flex align-items-center mx-lg-3">
+              <a class="d-block links" href="#servicos">Serviços</a>
+            </li>
+            <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
+              <a class="d-block links" href="#parceiros">Parceiros</a>
+            </li>
+            <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
+              <a class="d-block btn-3l btn-swipe angle" href="#contato"><span>Contato</span></a>
+            </li>
+          </ul>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar z-depth-1 d-lg-none">
       <?php the_custom_logo(); ?>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#mobile" aria-controls="mobile" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="animated-icon1"><span></span><span></span><span></span></div>
       </button>
+      <div class="collapse navbar-collapse red " id="mobile">
+      <ul class="navbar-nav ml-auto">
+            <li class="d-flex align-items-center mx-lg-3 ">
+              <a class="d-block links " href="#sobre">Sobre nós
+              </a>
+            </li>
+            <li class="d-flex align-items-center mx-lg-3">
+              <a class="d-block links" href="#servicos">Serviços</a>
+            </li>
+            <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
+              <a class="d-block links" href="#parceiros">Parceiros</a>
+            </li>
+            <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
+              <a class="d-block btn-3l btn-swipe angle" href="#contato"><span>Contato</span></a>
+            </li>
+          </ul>
 
-      <div class="collapse navbar-collapse container" id="basicExampleNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="d-flex align-items-center mx-lg-3">
-            <a class="d-block links" href="#sobre">Sobre nós
-            </a>
-          </li>
-          <li class="d-flex align-items-center mx-lg-3">
-            <a class="d-block links" href="#servicos">Serviços</a>
-          </li>
-          <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
-            <a class="d-block links" href="#parceiros">Parceiros</a>
-          </li>
-          <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
-            <a class="d-block btn-3l btn-swipe angle" href="#contato"><span>Contato</span></a>
-          </li>
+      </div>
+
+
     </nav>
   </header>

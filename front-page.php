@@ -10,7 +10,7 @@ get_header() ?>
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6 mt-lg-5 mt-3">
                     <h1 class="recile"> Recicle conosco</h1>
-                    <p class="text-justify pt-lg-5 pb-lg-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
+                    <p class="text-justify pt-5 pb-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
                     <a class="btn-3l btn-swipe angle"> Entre em contato</a>
                 </div>
                 <div class="col-lg-6  mt-lg-5 mt-3 text-right">
@@ -24,16 +24,29 @@ get_header() ?>
     <section id="sobre">
         <div class="container">
             <div class="row ">
-                <div class="col-lg-6 mt-lg-5 mt-3">
+
+                <div class="col-lg-6 mt-lg-5 mt-3 d-none d-lg-block">
                     <img loading="lazy" class="img-fluid" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/image-about.png" alt="Imagen Sobre">
                 </div>
-                <div class="col-lg-6 mt-lg-5 mt-3 text-center">
+                <div class="col-lg-6 mt-lg-5 mt-3 text-center d-none d-lg-block">
                     <h2 class="line1"> Sobre nós</h2>
                     <p class="text-justify pt-lg-5">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
                     <p class="text-justify">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
                 </div>
+
+                <div class="d-flex flex-column-reverse d-lg-none">
+                    <div>
+                        <img loading="lazy" class="img-fluid" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/image-about.png" alt="Imagen Sobre">
+                    </div>
+                    <div class="col-lg-6 mt-lg-5 mt-3 text-center">
+                        <h2 class="line1"> Sobre nós</h2>
+                        <p class="text-justify pt-5">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
+                        <p class="text-justify">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
+                    </div>
+                    </di>
+
+                </div>
             </div>
-        </div>
     </section>
 
     <section id="servicos">
@@ -42,7 +55,7 @@ get_header() ?>
                 <div class="col-lg-9  mt-md-5 mt-3">
                     <h2 class="line2"> Nossos Serviços</h2>
                     <div class="row">
-                        <div class="col-md-6 pt-md-5">
+                        <div class="col-md-6 pt-5">
                             <div class=" py-md-2 d-flex">
                                 <img loading="lazy" class="img-fluid mx-2" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/check.svg" alt="icone checke">
 
@@ -93,9 +106,9 @@ get_header() ?>
     <section id="parceiros">
         <div class="container">
             <div class="d-flex justify-content-end">
-        <h2 class="line3">Parceiros</h2>
-        </div>
-            <div class="owl-carousel owl-theme text-justify pt-md-5">
+                <h2 class="line3">Parceiros</h2>
+            </div>
+            <div class="owl-carousel owl-theme text-justify pt-5">
                 <div class="item">
                     <h4>1</h4>
                 </div>
@@ -117,7 +130,7 @@ get_header() ?>
                 <div class="item">
                     <h4>7</h4>
                 </div>
-              
+
             </div>
             <div class="owl-nav">
                 <img loading="lazy" class="owl-next mx-2" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/arrow-left.png" alt="arrow-left">
@@ -131,11 +144,11 @@ get_header() ?>
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6 mt-lg-5 mt-3">
                     <h2 class="line1">Contato</h2>
-                    <div class="pt-md-5">
-                  <?php echo do_shortcode('[contact-form-7 id="11" title="Contato"]')?>
-                  </div>
+                    <div class="pt-5">
+                        <?php echo do_shortcode('[contact-form-7 id="11" title="Contato"]') ?>
+                    </div>
                 </div>
-                <div class="col-lg-6  mt-lg-5 mt-3 text-right">
+                <div class="col-lg-6  mt-lg-5 mt-3 text-right d-none d-lg-block">
                     <img loading="lazy" class="img-fluid" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/image-contact.png" alt="Imagem Contato">
                 </div>
             </div>
