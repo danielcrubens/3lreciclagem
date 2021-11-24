@@ -5,15 +5,17 @@ get_header() ?>
 
 
 <main>
-    <section>
+    <section class="">
         <div class="container ">
             <div class="row d-flex align-items-center">
-                <div class="col-lg-6 mt-lg-5 mt-3">
+                <div class="col-lg-6 mt-lg-5 mt-3 scroll-down">
                     <h1 class="recile"> Recicle conosco</h1>
                     <p class="text-justify pt-5 pb-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
-                    <a class="btn-3l btn-swipe angle"> Entre em contato</a>
+                    <div class="navbar">
+                     <a href="#contato" class="btn-3l btn-swipe angle "> Entre em contato</a>
+                    </div>
                 </div>
-                <div class="col-lg-6  mt-lg-5 mt-3 text-right">
+                <div class="col-lg-6  mt-lg-5 mt-3 text-right scroll-down">
                     <img loading="lazy" class="img-fluid" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/image-hero.png" alt="Recicle Conosco">
 
                 </div>
@@ -25,16 +27,16 @@ get_header() ?>
         <div class="container">
             <div class="row ">
 
-                <div class="col-lg-6 mt-lg-5 mt-3 d-none d-lg-block">
+                <div class="col-lg-6 mt-lg-5 mt-3 d-none d-lg-block scroll-down">
                     <img loading="lazy" class="img-fluid" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/image-about.png" alt="Imagen Sobre">
                 </div>
-                <div class="col-lg-6 mt-lg-5 mt-3 text-center d-none d-lg-block">
+                <div class="col-lg-6 mt-lg-5 mt-3 text-center d-none d-lg-block scroll-down">
                     <h2 class="line1"> Sobre nós</h2>
                     <p class="text-justify pt-lg-5">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
                     <p class="text-justify">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
                 </div>
 
-                <div class="d-flex flex-column-reverse d-lg-none">
+                <div class="d-flex flex-column-reverse d-lg-none scroll-down">
                     <div>
                         <img loading="lazy" class="img-fluid" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/image-about.png" alt="Imagen Sobre">
                     </div>
@@ -53,9 +55,9 @@ get_header() ?>
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-9  mt-md-5 mt-3">
-                    <h2 class="line2"> Nossos Serviços</h2>
+                    <h2 class="line2 scroll-down"> Nossos Serviços</h2>
                     <div class="row">
-                        <div class="col-md-6 pt-5">
+                        <div class="col-md-6 pt-5 scroll-down-delay-3">
                             <div class=" py-md-2 d-flex">
                                 <img loading="lazy" class="img-fluid mx-2" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/check.svg" alt="icone checke">
 
@@ -74,8 +76,7 @@ get_header() ?>
                                 <h3>Gestão de Resíduos</h3>
                             </div>
                         </div>
-                        <div class="col-md-6 pt-md-5">
-
+                        <div class="col-md-6 pt-md-5 scroll-down-delay-3">
                             <div class=" py-md-2 d-flex">
                                 <img loading="lazy" class="img-fluid mx-2" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/check.svg" alt="icone checke">
                                 <h3>Caçamba para retirada de lixo</h3>
@@ -104,11 +105,11 @@ get_header() ?>
     </section>
 
     <section id="parceiros">
-        <div class="container">
-            <div class="d-flex justify-content-end">
+        <div class="container pt-5">
+            <div class="d-flex justify-content-end scroll-down">
                 <h2 class="line3">Parceiros</h2>
             </div>
-            <div class="owl-carousel owl-theme text-justify pt-5">
+            <div class="owl-carousel owl-theme text-justify pt-5 scroll-down">
                 <div class="item">
                     <h4>1</h4>
                 </div>
@@ -142,13 +143,13 @@ get_header() ?>
     <section id="contato">
         <div class="container ">
             <div class="row d-flex align-items-center">
-                <div class="col-lg-6 mt-lg-5 mt-3">
+                <div class="col-lg-6 mt-lg-5 mt-3 scroll-down">
                     <h2 class="line1">Contato</h2>
-                    <div class="pt-5">
+                    <div class="pt-5 scroll-down">
                         <?php echo do_shortcode('[contact-form-7 id="11" title="Contato"]') ?>
                     </div>
                 </div>
-                <div class="col-lg-6  mt-lg-5 mt-3 text-right d-none d-lg-block">
+                <div class="col-lg-6  mt-lg-5 mt-3 text-right d-none d-lg-block scroll-down">
                     <img loading="lazy" class="img-fluid" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/image-contact.png" alt="Imagem Contato">
                 </div>
             </div>
