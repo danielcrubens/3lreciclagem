@@ -36,7 +36,7 @@ add_filter('excerpt_length', function ($length) {
 // Criar a barra lateral
 register_sidebar(
     array(
-        'name' => 'Barra lateral Beefor',
+        'name' => 'Barra lateral treslreciclagem',
         'id' => 'sidebar',
         'before_widget' => '<div class="card_category border-0 my-3  z-depth-1">',
         'after_widget' => '</div></div>',
