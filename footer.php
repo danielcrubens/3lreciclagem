@@ -5,16 +5,26 @@
     <div class="container">
         <div class=" row d-flex justify-content-between align-items-center">
             <div class="col-md-4 d-flex justify-content-lg-between  justify-content-center align-items-center ">
-                <img src="https://via.placeholder.com/250x65" alt="">
+                <div class="d-flex">
+                    <a href="https://instagram.com/3lreciclagem?utm_medium=copy_link" target="_blank">
+                        <p class="m-0"><i class="fab fa-instagram fa-2x"></i>
+                    </a> <span class="mx-2"></span>
+                    <a href="callto:15 98831-7778" target="_blank">
+                        <p class="m-0"><i class="fas fa-phone-alt fa-2x"></i>
+                    </a> <span class="mx-2"></span>
+                    <a href="https://www.google.com/maps/place/R.+Clovis+Miranda,+7+-+Parque+S%C3%A3o+Bento,+Sorocaba+-+SP,+18072-068/@-23.4367332,-47.5057426,19z/data=!4m5!3m4!1s0x94c5f43c32757175:0xd055f308ee8745a8!8m2!3d-23.4367166!4d-47.5052309" target="_blank">
+                        <p class="m-0"><i class="fas fa-map-marker-alt fa-2x"></i>
+                    </a> <span class="mx-2"></span>
+                </div>
             </div>
             <div class="col-md-4 text-center py-3">
                 <p class="m-0">©<?php echo date("Y"); ?> 3LReciclagem</p>
             </div>
             <div class="col-md-4 text-md-right d-none d-md-block">
                 <a href="https://bit.ly/39RejRZ" target="_blank">
-                    <p class="m-0"><i class="fab fa-behance-square"></i> Pedro Murilo
+                    <p class="m-0"><i class="fab fa-behance-square fa-2x"></i> Pedro Murilo
                 </a> <span class="mx-2"></span>
-                <a href="https://danielcrubens.github.io/" target="_blank"><i class="fas fa-laptop-code"></i> Daniel </a> </p>
+                <a href="https://danielcrubens.github.io/" target="_blank"><i class="fas fa-laptop-code fa-2x"></i> Daniel </a> </p>
             </div>
         </div>
     </div>
@@ -34,5 +44,4 @@
 <script src="https://todoprint.com.br/media/isidora/js/maskedinput/maskedinput.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
 </body>
-
 </html>

@@ -26,14 +26,14 @@ get_header() ?>
     <section id="sobre">
         <div class="container">
             <div class="row ">
-
                 <div class="col-lg-6 mt-lg-5 mt-3 d-none d-lg-block scroll-down">
                     <img loading="lazy" class="img-fluid" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/image-about.png" alt="Imagen Sobre">
                 </div>
                 <div class="col-lg-6 mt-lg-5 mt-3 text-center d-none d-lg-block scroll-down">
                     <h2 class="line1"> Sobre nós</h2>
-                    <p class="text-justify pt-lg-5">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
-                    <p class="text-justify">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
+                    <p class="text-justify pt-lg-5">Com o intuito de gerenciar resíduos não perigosos pós descartes, foi fundada a 3L Reciclagem, a qual tem como valores, dentre outros, Valorização do Meio Ambiente, Responsabilidade Socioambiental, Dignidade da Pessoa Humana, Valorização Social da Comunidade, bem como, ainda, Respeito e Preservação do Meio Ambiente Equilibrado para as presentes e Futuras Gerações.</p>
+                    <p class="text-justify">O início das atividades se deram em Maio de 2020, tendo como idealizador Luan Lima, cuja formação acadêmica em direito – Advogado, fez lanças os olhos para um problema socioambiental.</p>
+                    <p class="text-justify">A ideia inicial persiste; Gerenciar pós descartes resíduos não perigosos que são passiveis de reciclagem, evitando que os mesmo, indevidamente, cheguem aos aterros, rios, lagos, florestas e etc., poluindo e degradando o Meio Ambiente.</p>
                 </div>
 
                 <div class="d-flex flex-column-reverse d-lg-none scroll-down">
@@ -79,7 +79,7 @@ get_header() ?>
                         <div class="col-md-6 pt-md-5 scroll-down-delay-3">
                             <div class=" py-md-2 d-flex">
                                 <img loading="lazy" class="img-fluid mx-2" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/check.svg" alt="icone checke">
-                                <h3>Caçamba para retirada de lixo</h3>
+                                <h3>Caçamba</h3>
                             </div>
                             <div class=" py-md-2 d-flex">
                                 <img loading="lazy" class="img-fluid mx-2" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/check.svg" alt="icone checke">
