@@ -1,9 +1,6 @@
 <?php
 /*Template Name: Home */
 get_header() ?>
-
-
-
 <main>
     <section class="">
         <div class="container ">
@@ -156,8 +153,4 @@ get_header() ?>
         </div>
     </section>
 </main>
-
-
-
-
 <?php get_footer() ?>
