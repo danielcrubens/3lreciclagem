@@ -66,7 +66,7 @@ function create_post_type()
         array(
             'labels' => array(
                 'name' => __('Banners'),
-                'singular_name' => __('Banners')
+                'singular_name' => __('Banners1')
             ),
             'supports' => array(
                 'title', 'editor', 'thumbnail'
@@ -168,6 +168,9 @@ function reading_time($post_id)
     $totalreadingtime = $readingtime . "Min de leitura";
     return $totalreadingtime;
 }
+
+
+
 
 
 ?>

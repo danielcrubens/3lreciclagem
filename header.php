@@ -20,7 +20,7 @@
   <link rel="profile" href="https://gmpg.org/xfn/11">
   <!-- Favicon -->
   <?php wp_site_icon(); ?>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -38,7 +38,7 @@
 <body <?php body_class(); ?>>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar d-none d-lg-block">
-      <div class="container ">
+      <div class="container-fluid ">
         <?php the_custom_logo(); ?>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,34 +58,45 @@
               <a class="d-block links" href="#parceiros">Parceiros</a>
             </li>
             <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
+              <a class="d-block links" href="<?php echo esc_url(home_url('/')); ?>blog" title="Blog">Blog</a>
+            </li>
+            <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
               <a class="d-block btn-3l btn-swipe angle" href="#contato"><span>Contato</span></a>
             </li>
           </ul>
+        </div>
+      </div>
     </nav>
+
+
+
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar z-depth-1 d-lg-none">
       <?php the_custom_logo(); ?>
-      <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#mobile" aria-controls="mobile" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="animated-icon1"><span></span><span></span><span></span></div>
+      <li class="d-flex align-items-center ml-auto mx-3 m">
+        <a class="d-block btn-3l btn-swipe angle" href="#contato"><span>Contato</span></a>
+      </li>
+      <button class="navbar-toggler hamburger-button" type="button" data-toggle="collapse" data-target="#mobile" aria-controls="mobile" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="animated-icon"><span></span><span></span><span></span></div>
       </button>
-      <div class="collapse navbar-collapse red " id="mobile">
-        <ul class="navbar-nav ml-auto">
-          <li class="d-flex align-items-center mx-lg-3 ">
-            <a class="d-block links " href="#sobre">Sobre nós
-            </a>
-          </li>
-          <li class="d-flex align-items-center mx-lg-3">
-            <a class="d-block links" href="#servicos">Serviços</a>
-          </li>
-          <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
-            <a class="d-block links" href="#parceiros">Parceiros</a>
-          </li>
-          <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
-            <a class="d-block btn-3l btn-swipe angle" href="#contato"><span>Contato</span></a>
-          </li>
-        </ul>
+      <div class="container-fluid ">
+        <div class="collapse navbar-collapse" id="mobile">
+          <ul class="navbar-nav ml-auto">
+            <li class="d-flex align-items-center mx-lg-3 ">
+              <a class="d-block links " href="#sobre">Sobre nós
+              </a>
+            </li>
+            <li class="d-flex align-items-center mx-lg-3">
+              <a class="d-block links" href="#servicos">Serviços</a>
+            </li>
+            <li class="d-flex align-items-center mx-lg-3 mx-lg-3">
+              <a class="d-block links" href="#parceiros">Parceiros</a>
+            </li>
 
+          </ul>
+
+        </div>
       </div>
 
-
     </nav>
+
   </header>

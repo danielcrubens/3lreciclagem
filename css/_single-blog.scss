@@ -1,0 +1,35 @@
+/*BLOG SINGLE*/
+.img-capa {
+    img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin: 0 auto;
+        min-height: 437px;
+        height: 0rem;
+        object-fit: cover;
+    }
+}
+
+section.single-blog {
+    .content-single p,
+    li,
+    ul {
+        color: $gray-dark;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+}
+
+.content-single ul,
+ol {
+    padding-left: 1rem !important;
+}
+/* .content-single h2,
+h3,
+h4,
+h5,
+h6 {
+    color: blue;
+} */

@@ -1,18 +1,15 @@
 <?php
 /*Template Name: Home */
 get_header() ?>
-
-
-
 <main>
-    <section class="">
-        <div class="container ">
+    <section class="view d-flex align-items-center recycle ">
+        <div class="container d-flex align-items-center">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6 mt-lg-5 mt-3 scroll-down">
                     <h1 class="recile"> Recicle conosco</h1>
-                    <p class="text-justify pt-5 pb-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttito</p>
-                    <div class="navbar">
-                     <a href="#contato" class="btn-3l btn-swipe angle "> Entre em contato</a>
+                    <p class="text-justify pt-5 pb-3">Com o intuito de gerenciar resíduos não perigosos pós descartes, foi fundada a 3L Reciclagem, a qual tem como valores, dentre outros, Valorização do Meio Ambiente, Responsabilidade Socioambiental, Dignidade da Pessoa Humana, Valorização Social da Comunidade, bem como, ainda, Respeito e Preservação do Meio Ambiente Equilibrado para as presentes e Futuras Gerações.</p>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="#contato" class="btn-3l btn-swipe angle "> Entre em contato</a>
                     </div>
                 </div>
                 <div class="col-lg-6  mt-lg-5 mt-3 text-right scroll-down">
@@ -31,8 +28,7 @@ get_header() ?>
                 </div>
                 <div class="col-lg-6 mt-lg-5 mt-3 text-center d-none d-lg-block scroll-down">
                     <h2 class="line1"> Sobre nós</h2>
-                    <p class="text-justify pt-lg-5">Com o intuito de gerenciar resíduos não perigosos pós descartes, foi fundada a 3L Reciclagem, a qual tem como valores, dentre outros, Valorização do Meio Ambiente, Responsabilidade Socioambiental, Dignidade da Pessoa Humana, Valorização Social da Comunidade, bem como, ainda, Respeito e Preservação do Meio Ambiente Equilibrado para as presentes e Futuras Gerações.</p>
-                    <p class="text-justify">O início das atividades se deram em Maio de 2020, tendo como idealizador Luan Lima, cuja formação acadêmica em direito – Advogado, fez lanças os olhos para um problema socioambiental.</p>
+                    <p class="text-justify pt-lg-5">O início das atividades se deram em Maio de 2020, tendo como idealizador Luan Lima, cuja formação acadêmica em direito – Advogado, fez lanças os olhos para um problema socioambiental.</p>
                     <p class="text-justify">A ideia inicial persiste; Gerenciar pós descartes resíduos não perigosos que são passiveis de reciclagem, evitando que os mesmo, indevidamente, cheguem aos aterros, rios, lagos, florestas e etc., poluindo e degradando o Meio Ambiente.</p>
                 </div>
 
@@ -60,9 +56,9 @@ get_header() ?>
                         <div class="col-md-6 pt-5 scroll-down-delay-3">
                             <div class=" py-md-2 d-flex">
                                 <img loading="lazy" class="img-fluid mx-2" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/check.svg" alt="icone checke">
-
                                 <h3>Limpeza de Eventos</h3>
                             </div>
+                            
                             <div class=" py-md-2 d-flex">
                                 <img loading="lazy" class="img-fluid mx-2" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/check.svg" alt="icone checke">
                                 <h3>Separação</h3>
@@ -155,9 +151,16 @@ get_header() ?>
             </div>
         </div>
     </section>
+
+
+    <div class="container mt-5">
+
+
+  <!--Section: Content-->
+>
+  <!--Section: Content-->
+
+
+</div>
 </main>
-
-
-
-
 <?php get_footer() ?>

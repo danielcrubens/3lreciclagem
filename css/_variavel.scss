@@ -30,22 +30,23 @@ $blue-link: #9bdbff;
   color:$bg-color;
   background:$green-button;
 }
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+ 
+}
 
 html,
 body,
 .view {
   height: 100%;
 }
-html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  
- 
-}
 body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   background-color: $bg-color;
+  overflow-x: hidden;
+
 }
 p {
   color: $gray-dark;
@@ -66,9 +67,9 @@ h3 {
   font-size: 1.5rem;
   color: $gray-dark;
   font-weight: 400;
-
-
 }
-section {
+
+/* section {
   margin-top: 6rem;
 }
+ */
