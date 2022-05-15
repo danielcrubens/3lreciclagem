@@ -151,6 +151,7 @@ get_header() ?>
             </div>
         </div>
     </section>
+<<<<<<< HEAD
 
 
     <div class="container mt-5">
@@ -162,5 +163,7 @@ get_header() ?>
 
 
 </div>
+=======
+>>>>>>> 7afc1d0f1574968cab06c703a7c295055e3d2b6a
 </main>
 <?php get_footer() ?>

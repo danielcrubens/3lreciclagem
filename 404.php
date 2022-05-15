@@ -2,6 +2,12 @@
     <?php get_header(); ?>
 </div>
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 7afc1d0f1574968cab06c703a7c295055e3d2b6a
 <div class="container view">
     <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-10">
@@ -16,6 +22,24 @@
         </div>
     </div>
 </div>
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 7afc1d0f1574968cab06c703a7c295055e3d2b6a
 <div class=" d-none">
     <?php get_footer(); ?>
 </div>

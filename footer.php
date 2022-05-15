@@ -44,5 +44,11 @@
 </body>
 </html>
 <script>
+<<<<<<< HEAD
 
+=======
+    $(function () {
+	$("#tel-contato").mask("+99 (00) 0 0000-0000");
+});
+>>>>>>> 7afc1d0f1574968cab06c703a7c295055e3d2b6a
 </script>
