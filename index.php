@@ -2,9 +2,9 @@
 <div class=" mt-5">
   <div class="container pt-5">
     <div class="row d-flex justify-content-center">
-      <div class="col-md-6 text-center">
+      <div class="col-md-6 mt-5 text-center">
         <div class=" container pl-0 pr-0">
-          <form role="search" method="get" action="<?php echo home_url('/'); ?>" class="mb-4 ">
+          <form role="search" method="get" action="<?php echo home_url('/'); ?>" class="my-4 ">
             <div class="input-group sm-form flex-center">
               <input type="search" class="form-control rounded" value="<?php echo get_search_query(); ?>" name="s" placeholder="O que procura?" required>
               <div class="input-group-append">
@@ -20,7 +20,7 @@
 
 <main class="mt-0 pt-0 blog">
   <div class="container">
-    <section class="text-center ">
+    <section class="text-center">
       <div class="row">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <!--     <?php get_template_part('content'); ?> -->

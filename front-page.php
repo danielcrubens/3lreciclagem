@@ -8,7 +8,7 @@ get_header() ?>
                 <div class="col-lg-6 mt-lg-5 mt-3 scroll-down">
                     <h1 class="recile"> Recicle conosco</h1>
                     <p class="text-justify pt-5 pb-3">Com o intuito de gerenciar resíduos não perigosos pós descartes, foi fundada a 3L Reciclagem, a qual tem como valores, dentre outros, Valorização do Meio Ambiente, Responsabilidade Socioambiental, Dignidade da Pessoa Humana, Valorização Social da Comunidade, bem como, ainda, Respeito e Preservação do Meio Ambiente Equilibrado para as presentes e Futuras Gerações.</p>
-                    <div class="d-flex justify-content-center justify-content-lg-start">
+                    <div class="d-flex justify-content-center justify-content-lg-start scroll">
                         <a href="#contato" class="btn-3l btn-swipe angle "> Entre em contato</a>
                     </div>
                 </div>
@@ -58,7 +58,6 @@ get_header() ?>
                                 <img loading="lazy" class="img-fluid mx-2" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/check.svg" alt="icone checke">
                                 <h3>Limpeza de Eventos</h3>
                             </div>
-                            
                             <div class=" py-md-2 d-flex">
                                 <img loading="lazy" class="img-fluid mx-2" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/check.svg" alt="icone checke">
                                 <h3>Separação</h3>
@@ -89,13 +88,9 @@ get_header() ?>
                                 <img loading="lazy" class="img-fluid mx-2" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/check.svg" alt="icone checke">
                                 <h3>Destinação de Resíduos</h3>
                             </div>
-
-
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </section>
@@ -151,19 +146,7 @@ get_header() ?>
             </div>
         </div>
     </section>
-<<<<<<< HEAD
 
 
-    <div class="container mt-5">
-
-
-  <!--Section: Content-->
->
-  <!--Section: Content-->
-
-
-</div>
-=======
->>>>>>> 7afc1d0f1574968cab06c703a7c295055e3d2b6a
 </main>
 <?php get_footer() ?>
